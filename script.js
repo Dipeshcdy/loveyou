@@ -5,20 +5,16 @@ document.addEventListener("DOMContentLoaded", function() {
   // Attach click event listener to the button
   playButton.addEventListener("click", function() {
     // Check if the audio is paused before playing
-    
+    console.log("hi");
     $('.playmusic').css("left","-100%");
-
-    typeWriter();
-
     if (backgroundMusic.paused) {
       backgroundMusic.play();
     } else {
       backgroundMusic.pause();
     }
+    typeWriter();
   });
-  setTimeout(function() {
-    playButton.click();
-  }, 5000);
+
 });
 
 
@@ -37,7 +33,7 @@ var love = setInterval(function(){
   },500);
   
   var i = 0;
-  var txt1 = " Hi SweetHeart.....!  <<               Now I wan't to say something special to you. <<<                So , Please read everything carefully...!                                                                           > When I saw you for the first time < You seems something Special to me.  <<                  As the days goes < you get closer to me....! <<                           I don't know the reason why your thoughts always resonates inside my mind...!                                                     > Everything about you is always intresting for me...!                     << I am somewhat nervous Because I haven't said these words to anyone and I won't say to anyone in future...!                                                     > I Love my Parents so much than anything else in this world....!                    << Now You are the only person  whom I love equally with my parents....!                                                             >I Love U <SweetHeart.....! |                  <<<< Give me One chance to Prove my Love ...!";
+  var txt1 = " Hi SweetHeart.....!  <<               Now I wan't to say something special to you. <<<                So , Please read everything carefully...!                                                                           > When I saw you for the first time < You seems something Special to me.  <<                  As the days goes < you get closer to me....! <<                           I don't know the reason why your thoughts always resonates inside my mind...!                                                     > Everything about you is always intresting for me...!                     << I am somewhat nervous Because I haven't said these words to anyone and I won't say to anyone in future...!                                                     > I Love my Parents so much than anything else in this world....!                    << Now You are the only person  whom I love equally with my parents....!                                                             >I Love U <SweetHeart.....! |                  <<<< My dipu Darling <MUSHERNI ...!";
   var speed = 50;
 
 function typeWriter() {
